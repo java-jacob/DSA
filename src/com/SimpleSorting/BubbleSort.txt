@@ -1,0 +1,11 @@
+Approx 30ms for 10000 elements BubbleSort.
+
+BubbleSortTime:29114600
+BubbleSortTime:29545800
+BubbleSortTime:29357000
+BubbleSortTime:29252100
+BubbleSortTime:29619000
+BubbleSortTime:29336000
+BubbleSortTime:36949100
+BubbleSortTime:30068800
+BubbleSortTime:29299300

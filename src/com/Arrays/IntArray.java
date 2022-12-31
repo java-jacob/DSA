@@ -104,5 +104,8 @@ public class IntArray {
         }
     }
 
+    public int[] getInnerArr(){
+        return intArr;
+    }
 
 }

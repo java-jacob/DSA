@@ -30,3 +30,11 @@ Algorithm & Big O
 5. Deletion in Unordered Array - O(N)
 6. Deletion in Ordered Array - O(N)
 
+Problem with Arrays
+------------------
+1. Size is fixed - initially can we allocate less/too much memory.
+less - means we need to resize during run time.
+more - loss of precious memory.
+
+
+
