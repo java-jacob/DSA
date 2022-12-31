@@ -34,6 +34,7 @@ public class IntArray {
 
     /**
      * O(N)
+     * Linear Search
      */
     public boolean searchElement(int key) {
         for (int i = 0; i < intArr.length; i++) {
@@ -67,5 +68,41 @@ public class IntArray {
     public void printArr(){
         Arrays.stream(intArr).forEach(System.out::println);
     }
+
+    public int getSize(){
+        return intArr.length;
+    }
+
+
+    public void sort(){ Arrays.sort(intArr);}
+
+    /**
+     * BINARY SEARCH FOR ORDERED ARRAY - JACOB JOHN
+     *
+     * @param key
+     * @return
+     */
+    public boolean binarySearch( int key) {
+        int lowerBound = 0;
+        int upperBound = this.getSize();
+        int currIndex = lowerBound + (upperBound - lowerBound) / 2;
+
+        while (true) {
+            // System.out.println(currIndex);
+            if (key == this.getValueAtIndex(currIndex)) {
+              //  System.out.println("Found Index:" + currIndex);
+                return true;
+            } else if (key < this.getValueAtIndex(currIndex)) {// SEARCH LEFT
+                upperBound = currIndex - 1; // -1 = same field already checked
+            } else if (key > this.getValueAtIndex(currIndex)) { //SEARCH RIGHT
+                lowerBound = currIndex + 1;
+            }
+            currIndex = lowerBound + (upperBound - lowerBound) / 2;
+            if (lowerBound > upperBound) {
+                return false; //Element not found
+            }
+        }
+    }
+
 
 }

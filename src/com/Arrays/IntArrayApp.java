@@ -14,9 +14,10 @@ public class IntArrayApp{
             long start = System.nanoTime();
             integerArray.setValue(i,(int)(Math.random()*10000)); //THIS IS IN 100, 200 nano seconds but delete in 200 milli secs.
             long end = System.nanoTime();
-            System.out.println(end-start);
+            System.out.println("ArraySettingTime:"+(end-start));
         }
         //integerArray.printArr();
+
 
         int count = 100;
         while(count > 0) {
@@ -24,7 +25,7 @@ public class IntArrayApp{
             long start = System.nanoTime();
             integerArray.deleteKey(randNumber);
             long end = System.nanoTime();
-            System.out.println(end-start);
+            System.out.println("ArrayDeleteTime:"+(end-start));
 
            /* if (integerArray.deleteKey(randNumber)) {
                 System.out.println(" Delete Number:" + randNumber);
