@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c3c1bb2-37d8-47c3-998e-ee56049fcd8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Arrays/BinarySearchOrderedArray.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Arrays/IntArrayApp.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/com/Arrays/IntArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/com/Arrays/IntArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/com/Arrays/IntArrayApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/com/Arrays/IntArrayApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Arrays/BinarySearchOrderedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/BinarySearchOrderedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Arrays/IntArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/IntArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Arrays/IntArrayApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/IntArrayApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +42,7 @@
       <recent name="H:\Study\Code\DSA\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IntArrayApp">
+  <component name="RunManager" selected="Application.OrderedArrayApp">
     <configuration name="BinarySearchOrderedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Arrays.BinarySearchOrderedArray" />
       <module name="DSA" />
@@ -76,8 +69,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrderedArrayApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Arrays.OrderedArrayApp" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OrderedArrayApp" />
         <item itemvalue="Application.IntArrayApp" />
         <item itemvalue="Application.BinarySearchOrderedArray" />
       </list>
@@ -93,7 +100,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672483033182</updated>
-      <workItem from="1672483034474" duration="5825000" />
+      <workItem from="1672483034474" duration="8450000" />
     </task>
     <task id="LOCAL-00001" summary="Committing">
       <created>1672485509239</created>
@@ -117,26 +124,30 @@
       <screen x="1920" y="-75" width="1920" height="1040" />
     </state>
     <state x="2472" y="103" key="#Project_Structure/0.0.1920.1040/1920.-75.1920.1040@1920.-75.1920.1040" timestamp="1672483051447" />
+    <state x="2685" y="154" key="#com.intellij.ide.util.MemberChooser" timestamp="1672492518301">
+      <screen x="1920" y="-75" width="1920" height="1040" />
+    </state>
+    <state x="2685" y="154" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.-75.1920.1040@1920.-75.1920.1040" timestamp="1672492518301" />
     <state x="2505" y="39" key="CommitChangelistDialog2" timestamp="1672485508819">
       <screen x="1920" y="-75" width="1920" height="1040" />
     </state>
     <state x="2505" y="39" key="CommitChangelistDialog2/0.0.1920.1040/1920.-75.1920.1040@1920.-75.1920.1040" timestamp="1672485508819" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1672491195265">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1672493866421">
       <screen x="1920" y="-75" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-75.1920.1040@1920.-75.1920.1040" timestamp="1672491195265" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1672491195265">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-75.1920.1040@1920.-75.1920.1040" timestamp="1672493866421" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1672493866421">
       <screen x="1920" y="-75" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-75.1920.1040@1920.-75.1920.1040" timestamp="1672491195265" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1672491195265">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-75.1920.1040@1920.-75.1920.1040" timestamp="1672493866421" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1672493866420">
       <screen x="1920" y="-75" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-75.1920.1040@1920.-75.1920.1040" timestamp="1672491195265" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1672491195265">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-75.1920.1040@1920.-75.1920.1040" timestamp="1672493866420" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1672493866421">
       <screen x="1920" y="-75" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-75.1920.1040@1920.-75.1920.1040" timestamp="1672491195265" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-75.1920.1040@1920.-75.1920.1040" timestamp="1672493866421" />
     <state x="2381" y="87" key="SettingsEditor" timestamp="1672483910404">
       <screen x="1920" y="-75" width="1920" height="1040" />
     </state>
