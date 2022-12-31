@@ -21,3 +21,12 @@ Important Algorithms
 4. Delete element at a particular location in Array and compacting the array.
 
 
+Algorithm & Big O
+-----------------
+1. Linear Search - O(N)
+2. Binary Search - O(log N)
+3. Insertion in Unordered Array - O(1)
+4. Insertion in Ordered Array - O(N)
+5. Deletion in Unordered Array - O(N)
+6. Deletion in Ordered Array - O(N)
+
