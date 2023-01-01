@@ -1,0 +1,17 @@
+Arrays has some problems:
+Search is slow in normal array. Solution Ordered Array, but insertion is slow.
+Normal Array or Ordered Array - Deletion is slow.
+
+What is Solution: Linked List. Most used after Array.
+Suitable for General purpose Databases.
+Unless u need fast access with Index - almost all Array scenario we can use LL.
+LL can implement Stack and Queue instead of Array.
+
+1. LINKED LIST
+2. DOUBLE ENDED LIST
+3. SORTED LIST
+4. DOUBLY LINKED LIST
+5. LIST WITH ITERATOR.  
+
+ADT - Abstract Data Type - eg. Stack Queue.
+You can implement with Array or LL.

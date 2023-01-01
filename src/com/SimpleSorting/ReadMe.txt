@@ -18,5 +18,23 @@ For smaller values of N, selection sort is faster if swap times are greater than
 
 Insertion Sort
 ---------------
+For almost sorted data we get O(N)
+Otherwise N*(N-1)/4
+Copy is less costly than a swap.
 
 
+
+
+10000 random integers - sort timings  - 28,14,4 ms resp
+BubbleSortTime:      28056300
+SelectionSortTime:   14745400
+InsertionSortTime:    4359400
+BubbleSortTime:      27819600
+SelectionSortTime:   14723100
+InsertionSortTime:    4350000
+BubbleSortTime:      29815700
+SelectionSortTime:   19464600
+InsertionSortTime:    9175100
+BubbleSortTime:      30897500
+SelectionSortTime:   14757700
+InsertionSortTime:    4230400

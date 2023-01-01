@@ -8,12 +8,14 @@ public class SortTester {
 
             IntArray integerBubbleSortArray = new IntArray(10000);
             IntArray integerSelectionSortArray = new IntArray(10000);
+            IntArray integerInsertionSortArray = new IntArray(10000);
 
             for (int i = 0; i < 10000; i++) {
                 // long start = System.nanoTime();
                 int randomNum = (int) (Math.random() * 10000);
                 integerBubbleSortArray.setValue(i, randomNum);
                 integerSelectionSortArray.setValue(i, randomNum);
+                integerInsertionSortArray.setValue(i, randomNum);
                 //long end = System.nanoTime();
                 //System.out.println(end-start);
             }
@@ -27,8 +29,14 @@ public class SortTester {
             start = System.nanoTime();
             SelectionSorter.selectionSort(integerSelectionSortArray.getInnerArr());
             end = System.nanoTime();
-            System.out.println("SelectionSortTime:  "  + (end - start));
+            System.out.println("SelectionSortTime:   "  + (end - start));
             //integerSelectionSortArray.printArr();
+
+            start = System.nanoTime();
+            InsertionSorter.insertionSort(integerInsertionSortArray.getInnerArr());
+            end = System.nanoTime();
+            System.out.println("InsertionSortTime:   " + (end - start));
+            //integerInsertionSortArray.printArr();
 
             //integerBubbleSortArray.printArr();
         }

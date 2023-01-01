@@ -1,0 +1,13 @@
+For 10000 random numbers Selection Sort takes half time of BubbleSort
+
+BubbleSortTime:     30658900
+SelectionSortTime:  14717100
+BubbleSortTime:     32833000
+SelectionSortTime:  14717400
+BubbleSortTime:     32072600
+SelectionSortTime:  18617600
+BubbleSortTime:     32557700
+SelectionSortTime:  14820200
+BubbleSortTime:     32404100
+SelectionSortTime:  14910100
+BubbleSortTime:     31202000
